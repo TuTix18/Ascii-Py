@@ -9,4 +9,4 @@ while True:
     ascii_result = inp
     if ascii_result.isalpha:
         print(pyfiglet.figlet_format(ascii_result))
-    system.os("pause")
+    system("pause")
